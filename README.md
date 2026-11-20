@@ -37,3 +37,11 @@ python scripts/nhung.py && python scripts/danh_gia_rag.py   # đo lại ngưỡn
 
 Dữ liệu trong data/ là dữ liệu MÔ PHỎNG (sinh bằng scripts/sinh_du_lieu.py, SEED = 2026).
 Triển khai thật: xem docs/trien_khai.md.
+
+## Kiểm thử trên Windows
+
+Chạy toàn bộ bài kiểm thử bằng lệnh:
+
+python -m pytest -q
+
+Kết quả kiểm tra: 24/24 test PASS.
